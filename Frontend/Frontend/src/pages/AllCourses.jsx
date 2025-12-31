@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import ai from "../assets/SearchAi.png"
