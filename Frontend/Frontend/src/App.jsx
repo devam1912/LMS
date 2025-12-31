@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import SignUp from './pages/SignUp'
 import LogIn from './pages/LogIn'
 import {ToastContainer} from "react-toastify"
-import getcurrentuser from './customHooks/getcurrentuser'
+import getCurrentuser from './customHooks/getcurrentuser'
 import { useSelector } from 'react-redux'
 import Profile from './pages/Profile'
 import ForgotPassword from './pages/ForgotPassword'
