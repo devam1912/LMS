@@ -25,7 +25,7 @@ import MyEnrolledCourses from './pages/MyEnrolledCourses'
 import getAllReviews from './customHooks/getAllReviews'
 import SearchWithAI from './pages/SearchWithAI'
 
-  export const serverUrl = "http://localhost:8000"
+  export const serverUrl = "https://lms-backend-fwlp.onrender.com"
 const App = () => {
       getcurrentuser()
       getCreatorCourse()
