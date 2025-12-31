@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import SignUp from './pages/SignUp'
 import LogIn from './pages/LogIn'
 import {ToastContainer} from "react-toastify"
-import getCurrentuser from './customHooks/getcurrentuser'
+import getCurrentUser from './customHooks/getCurrentUser'
 import { useSelector } from 'react-redux'
 import Profile from './pages/Profile'
 import ForgotPassword from './pages/ForgotPassword'
@@ -27,7 +27,7 @@ import SearchWithAI from './pages/SearchWithAI'
 
   export const serverUrl = "https://lms-backend-fwlp.onrender.com"
 const App = () => {
-      getcurrentuser()
+      getCurrentUser()
       getCreatorCourse()
       getPublishedCourse()
       getAllReviews()
